@@ -1,0 +1,53 @@
+{
+  "orderDetail": {
+    "id": 0,
+    "total": 8888,
+    "customerId": 3,
+    "customer": null,
+    "status": "New",
+    "createDate": "2021-02-07T22:15:59.6599826",
+    "updatedDate": "0001-01-01T00:00:00",
+    "orderLines": [
+      {
+        "id": 1,
+        "productiId": 2,
+        "productName": "Product 1",
+        "quanity": 5,
+        "uPrice": 0,
+        "discountTotal": 0,
+        "subTotal": 1171,
+        "promotionCode": "",
+        "status": "Active",
+        "purchasedOptions": [
+          {
+            "id": 1,
+            "orderDetailId": 1,
+            "optionId": 3,
+            "optionDescription": "Description for option 1 ",
+            "additionalCost": 171
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "productiId": 3,
+        "productName": "Product 3",
+        "quanity": 1,
+        "uPrice": 0,
+        "discountTotal": 0,
+        "subTotal": 3171,
+        "promotionCode": "",
+        "status": "Active",
+        "purchasedOptions": [
+          {
+            "id": 2,
+            "orderDetailId": 2,
+            "optionId": 5,
+            "optionDescription": "Description for option 1 ",
+            "additionalCost": 171
+          }
+        ]
+      }
+    ]
+  }
+}

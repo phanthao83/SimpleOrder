@@ -1,0 +1,34 @@
+{
+  "customerDetail": {
+    "id": 0,
+    "name": "Thao 15",
+    "email": "Customer@gmail.com",
+    "yearofBirth": 0,
+    "addressLst": [
+      {
+        "id": 0,
+        "customerId": 1,
+        "shopName": "Customer 15 HQ",
+        "addressType": "Main office",
+        "address1": " HQ 1 ABC Street ",
+        "address2": null,
+        "city": "Benton",
+        "state": "AR",
+        "zipCode": "72112",
+        "phoneNumber": "9567063354"
+      },
+      {
+        "id": 0,
+        "customerId": 1,
+        "shopName": "Customer 15 Shop1",
+        "addressType": "Main office",
+        "address1": " HQ 1 XYZ Street ",
+        "address2": null,
+        "city": "Benton",
+        "state": "AR",
+        "zipCode": "72112",
+        "phoneNumber": "9567063354"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210206024658_Add Order Detail Option.cs" />
+    <Compile Remove="Migrations\20210206024658_Add Order Detail Option.Designer.cs" />
+    <Compile Remove="Migrations\20210206025358_Add Order Detail Option v2.cs" />
+    <Compile Remove="Migrations\20210206025358_Add Order Detail Option v2.Designer.cs" />
+    <Compile Remove="Migrations\20210206025418_Update Customer Address v3.cs" />
+    <Compile Remove="Migrations\20210206025418_Update Customer Address v3.Designer.cs" />
+    <Compile Remove="Migrations\20210207214958_Add OrderID to OptioNDetail.cs" />
+    <Compile Remove="Migrations\20210207214958_Add OrderID to OptioNDetail.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SODtaModel\SODtaModel.csproj" />
+  </ItemGroup>
+
+</Project>
